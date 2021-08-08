@@ -24,7 +24,8 @@
     "typescript",
     "typescriptreact",
     "html",
-    "vim"
+    "vim",
+    "lua"
   ],
 
   "javascript.validate.enable": true,
