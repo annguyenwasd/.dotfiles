@@ -96,8 +96,8 @@ end
 
 ex("command! CopyFileName :call v:lua.copyFileName()")
 ex("command! CopyAbsouPathPath :call v:lua.copyAbsouPathPath()")
-ex("command! CopyFileRelativePath :call v:lua.copyFileRelativePath()")
-ex("command! CopyFileRelativeFolderPath :call v:lua.copyFileRelativeFolderPath()")
+ex("command! CopyRelativePath :call v:lua.copyFileRelativePath()")
+ex("command! CopyFolderPath :call v:lua.copyFileRelativeFolderPath()")
 
 ex("command! GoogleJavaFormat :call v:lua.googleJavaFormat()")
 ex("command! OpenCurrentFolder :call v:lua.openCurrentFolder()")

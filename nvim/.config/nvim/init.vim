@@ -36,7 +36,6 @@ Plug 's1n7ax/nvim-comment-frame'
 
 " File explorer
 Plug 'kyazdani42/nvim-tree.lua'
-Plug 'tamago324/lir.nvim'
 
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
@@ -65,6 +64,7 @@ Plug 'shaunsingh/moonlight.nvim'
 Plug 'arzg/vim-colors-xcode'
 Plug 'lourenci/github-colors'
 Plug 'MordechaiHadad/nvim-papadark'
+Plug 'mcchrish/zenbones.nvim'
 call plug#end()
 "}}}
 
@@ -76,16 +76,11 @@ lua require('explorer')
 lua require('other')
 lua require('git')
 lua require('vimspector')
+lua require('lsp-coc')
 
 "{{{ LSP configuration
 
 lua << EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = "maintained",
-  highlight = {
-    enable = true,
-  }
-}
 EOF
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

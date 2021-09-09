@@ -77,5 +77,7 @@
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "java.format.settings.profile": "GoogleStyle",
   "java.saveActions.organizeImports": false,
-  "java.trace.server": "verbose"
+  "java.trace.server": "verbose",
+
+  "Lua.diagnostics.globals": ["vim"]
 }

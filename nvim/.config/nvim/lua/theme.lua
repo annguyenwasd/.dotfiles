@@ -52,4 +52,4 @@ augroup ThemeGroup
 augroup END
 ]])
 
-vim.cmd("colorscheme omni")
+vim.cmd("colorscheme nord")
