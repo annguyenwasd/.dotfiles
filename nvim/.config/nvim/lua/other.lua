@@ -2,6 +2,12 @@ local utils = require("utils")
 local map = utils.map
 
 vim.g.asyncrun_open = 8
+vim.cmd([[
+augroup AutoOpenQuickFixAsyncRun
+  autocmd!
+  autocmd User AsyncRunStop :copen 20<cr>
+augroup END
+]])
 
 require("colorizer").setup()
 require("nvim-web-devicons").setup({
