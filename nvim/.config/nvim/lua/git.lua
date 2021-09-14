@@ -32,7 +32,7 @@ map("n", "<localleader>bl", "<cmd>G blame<cr>")
 map("n", "<leader>gc", ":call GitCommit()<cr>")
 map("n", "<leader>ga", "<cmd>G add -A<cr>")
 map("n", "<leader>gw", '<cmd>G add -A <bar>G commit -n -m "WIP"<cr>')
-map("n", "<leader>gp", ":AsyncRun git push<cr>")
+map("n", "<leader>gp", ":AsyncRun git push<cr>", { silent = false })
 
 require("gitsigns").setup({
 	signs = {
