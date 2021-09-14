@@ -65,10 +65,11 @@ map("n", "<c-w><c-s>", "<c-w>s <c-w>j", { noremap = true })
 map("n", "<c-w><c-w>", "<c-w>q", { noremap = true })
 
 map("n", "<leader>rr", '"rciw')
+map("n", "<leader>cf", ":CopyFileName<cr>")
 
 function _G.copyFileName()
-	vim.fn.setreg("*", vim.fn.expand("%:t"))
-	vim.fn.setreg("r", vim.fn.expand("%:t"))
+	vim.fn.setreg("*", vim.fn.expand("%:t:r"))
+	vim.fn.setreg("r", vim.fn.expand("%:t:r"))
 end
 
 function _G.copyAbsouPathPath()

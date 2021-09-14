@@ -52,4 +52,4 @@ augroup ThemeGroup
 augroup END
 ]])
 
-vim.cmd("colorscheme nord")
+vim.cmd("colorscheme gruvbox8")
