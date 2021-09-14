@@ -2,6 +2,7 @@ local utils = require("utils")
 local map = utils.map
 
 vim.g.asyncrun_open = 10
+vim.g.asyncrun_bell = 1
 
 require("colorizer").setup()
 require("nvim-web-devicons").setup({
