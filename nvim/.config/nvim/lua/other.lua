@@ -1,7 +1,6 @@
 local utils = require("utils")
 local map = utils.map
 
-vim.g.asyncrun_open = 8
 vim.cmd([[
 augroup AutoOpenQuickFixAsyncRun
   autocmd!
