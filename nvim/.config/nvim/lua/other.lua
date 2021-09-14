@@ -65,3 +65,5 @@ map("n", "'3", '<cmd>lua require("harpoon.ui").nav_file(3)<cr>')
 map("n", "'4", '<cmd>lua require("harpoon.ui").nav_file(4)<cr>')
 map("n", "'5", '<cmd>lua require("harpoon.ui").nav_file(5)<cr>')
 map("n", "mq", '<cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>')
+
+vim.g.asyncrun_open = 40
