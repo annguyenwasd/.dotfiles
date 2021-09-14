@@ -5,7 +5,7 @@ vim.g.asyncrun_open = 8
 vim.cmd([[
 augroup AutoOpenQuickFixAsyncRun
   autocmd!
-  autocmd User AsyncRunStop :copen 20<cr>
+  autocmd User AsyncRunStop :copen 20
 augroup END
 ]])
 
